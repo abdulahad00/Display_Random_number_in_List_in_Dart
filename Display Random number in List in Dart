@@ -1,0 +1,26 @@
+import "dart:io";
+import 'dart:math';
+rn(){
+
+// First Method 
+
+Random ram=Random();
+print("enter a number");
+int k=int.parse(stdin.readLineSync()!);
+print("number is $k");
+var store=List.generate(k,(q){return ram.nextInt(k);});
+print(store);
+ 
+ // Second Method
+
+ List r=[];
+print("enter a number");
+int n=int.parse(stdin.readLineSync()!);
+print("number is $n");
+for(int p=0;p<n;p++){
+ var j=ram.nextInt(n);
+ r.add(j);
+ 
+ }
+print(r);
+}
