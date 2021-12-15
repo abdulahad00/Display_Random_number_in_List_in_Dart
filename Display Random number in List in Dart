@@ -1,6 +1,6 @@
 import "dart:io";
 import 'dart:math';
-rn(){
+void main(){
 
 // First Method 
 
